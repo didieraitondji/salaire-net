@@ -3,7 +3,7 @@ Un TP en Dev Web pour calculer le salaire net d'une personne lambda.
 
 ## Voici l'énoncé de l'exercicie :
 
-![image1.png]()
+![image1.png](image1.png)
 
 # Explication de ma proposition de réponse :
 
@@ -42,6 +42,6 @@ Le projet est développé en utilisant les technologies web suivantes :
 
 ## Aperçu :
 
-![image2.png]()
+![image2.png](image2.png)
 
 Pour toute question ou suggestion, n'hésitez pas à me contacter, ou à ouvrir d'issue sur Github.
