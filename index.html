@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salaire Net | TP </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="contenu">
+            <h1>Salaire Net</h1>
+            <form>
+                <div>
+                    <label for="sb">Salaire Brut :</label>
+                    <input type="number" name="sb" id="sb" min="0" value="0" oninput="salaireNetFunction()">
+                    <span>XOF</span>
+                </div>
+                <div>
+                    <label for="ne">Nombre d'enfant à charge :</label>
+                    <input type="number" name="ne" id="ne" min="0" value="0" oninput="salaireNetFunction()" >
+                    <span>EFTS</span>
+                </div>
+                <div>
+                    <label for="sn">Salaire Net :</label>
+                    <input type="number" name="sn" id="sn" min="0" value="0" disabled>
+                    <span>XOF</span>
+                </div>
+                <div>
+                    <span></span>
+                    <input type="reset" value="Remettre à zéro" id="ro">
+                </div>
+            </form>
+            <h2>Frais : </h2>
+            <div class="frais">
+                <div>
+                    <span>IPTS : </span>
+                    <span class="ipts">0</span>
+                </div>
+                <div>
+                    <span>Assurance Employé :</span>
+                    <span class="ae">0</span>
+                </div>
+                <div>
+                    <span>Régime de pension : </span>
+                    <span class="rp">0</span>
+                </div>
+                <div>
+                    <span>VPS :</span>
+                    <span class="vps">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
